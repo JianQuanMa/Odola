@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E7777082D12874C00781BFB /* OdolaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777072D12874C00781BFB /* OdolaApp.swift */; };
+		4E77770A2D12874C00781BFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777092D12874C00781BFB /* ContentView.swift */; };
+		4E77770C2D12875600781BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E77770B2D12875600781BFB /* Assets.xcassets */; };
+		4E77770F2D12875600781BFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E77770E2D12875600781BFB /* Preview Assets.xcassets */; };
+		4E7777192D12875600781BFB /* OdolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777182D12875600781BFB /* OdolaTests.swift */; };
+		4E7777232D12875600781BFB /* OdolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777222D12875600781BFB /* OdolaUITests.swift */; };
+		4E7777252D12875600781BFB /* OdolaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E7777152D12875600781BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7776FC2D12874C00781BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7777032D12874C00781BFB;
+			remoteInfo = Odola;
+		};
+		4E77771F2D12875600781BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E7776FC2D12874C00781BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E7777032D12874C00781BFB;
+			remoteInfo = Odola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E7777042D12874C00781BFB /* Odola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7777072D12874C00781BFB /* OdolaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaApp.swift; sourceTree = "<group>"; };
+		4E7777092D12874C00781BFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E77770B2D12875600781BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E77770E2D12875600781BFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E7777142D12875600781BFB /* OdolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7777182D12875600781BFB /* OdolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaTests.swift; sourceTree = "<group>"; };
+		4E77771E2D12875600781BFB /* OdolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7777222D12875600781BFB /* OdolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaUITests.swift; sourceTree = "<group>"; };
+		4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7777012D12874C00781BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7777112D12875600781BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E77771B2D12875600781BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E7776FB2D12874C00781BFB = {
+			isa = PBXGroup;
+			children = (
+				4E7777062D12874C00781BFB /* Odola */,
+				4E7777172D12875600781BFB /* OdolaTests */,
+				4E7777212D12875600781BFB /* OdolaUITests */,
+				4E7777052D12874C00781BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7777052D12874C00781BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7777042D12874C00781BFB /* Odola.app */,
+				4E7777142D12875600781BFB /* OdolaTests.xctest */,
+				4E77771E2D12875600781BFB /* OdolaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7777062D12874C00781BFB /* Odola */ = {
+			isa = PBXGroup;
+			children = (
+				4E7777072D12874C00781BFB /* OdolaApp.swift */,
+				4E7777092D12874C00781BFB /* ContentView.swift */,
+				4E77770B2D12875600781BFB /* Assets.xcassets */,
+				4E77770D2D12875600781BFB /* Preview Content */,
+			);
+			path = Odola;
+			sourceTree = "<group>";
+		};
+		4E77770D2D12875600781BFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E77770E2D12875600781BFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E7777172D12875600781BFB /* OdolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7777182D12875600781BFB /* OdolaTests.swift */,
+			);
+			path = OdolaTests;
+			sourceTree = "<group>";
+		};
+		4E7777212D12875600781BFB /* OdolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E7777222D12875600781BFB /* OdolaUITests.swift */,
+				4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */,
+			);
+			path = OdolaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7777032D12874C00781BFB /* Odola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7777282D12875600781BFB /* Build configuration list for PBXNativeTarget "Odola" */;
+			buildPhases = (
+				4E7777002D12874C00781BFB /* Sources */,
+				4E7777012D12874C00781BFB /* Frameworks */,
+				4E7777022D12874C00781BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Odola;
+			productName = Odola;
+			productReference = 4E7777042D12874C00781BFB /* Odola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E7777132D12875600781BFB /* OdolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E77772B2D12875600781BFB /* Build configuration list for PBXNativeTarget "OdolaTests" */;
+			buildPhases = (
+				4E7777102D12875600781BFB /* Sources */,
+				4E7777112D12875600781BFB /* Frameworks */,
+				4E7777122D12875600781BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7777162D12875600781BFB /* PBXTargetDependency */,
+			);
+			name = OdolaTests;
+			productName = OdolaTests;
+			productReference = 4E7777142D12875600781BFB /* OdolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E77771D2D12875600781BFB /* OdolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E77772E2D12875600781BFB /* Build configuration list for PBXNativeTarget "OdolaUITests" */;
+			buildPhases = (
+				4E77771A2D12875600781BFB /* Sources */,
+				4E77771B2D12875600781BFB /* Frameworks */,
+				4E77771C2D12875600781BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E7777202D12875600781BFB /* PBXTargetDependency */,
+			);
+			name = OdolaUITests;
+			productName = OdolaUITests;
+			productReference = 4E77771E2D12875600781BFB /* OdolaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7776FC2D12874C00781BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4E7777032D12874C00781BFB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4E7777132D12875600781BFB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4E7777032D12874C00781BFB;
+					};
+					4E77771D2D12875600781BFB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 4E7777032D12874C00781BFB;
+					};
+				};
+			};
+			buildConfigurationList = 4E7776FF2D12874C00781BFB /* Build configuration list for PBXProject "Odola" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7776FB2D12874C00781BFB;
+			productRefGroup = 4E7777052D12874C00781BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7777032D12874C00781BFB /* Odola */,
+				4E7777132D12875600781BFB /* OdolaTests */,
+				4E77771D2D12875600781BFB /* OdolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7777022D12874C00781BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E77770F2D12875600781BFB /* Preview Assets.xcassets in Resources */,
+				4E77770C2D12875600781BFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7777122D12875600781BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E77771C2D12875600781BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7777002D12874C00781BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E77770A2D12874C00781BFB /* ContentView.swift in Sources */,
+				4E7777082D12874C00781BFB /* OdolaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7777102D12875600781BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7777192D12875600781BFB /* OdolaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E77771A2D12875600781BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7777252D12875600781BFB /* OdolaUITestsLaunchTests.swift in Sources */,
+				4E7777232D12875600781BFB /* OdolaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E7777162D12875600781BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7777032D12874C00781BFB /* Odola */;
+			targetProxy = 4E7777152D12875600781BFB /* PBXContainerItemProxy */;
+		};
+		4E7777202D12875600781BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E7777032D12874C00781BFB /* Odola */;
+			targetProxy = 4E77771F2D12875600781BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E7777262D12875600781BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E7777272D12875600781BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7777292D12875600781BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Odola/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.Odola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E77772A2D12875600781BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Odola/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.Odola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E77772C2D12875600781BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.OdolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odola.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Odola";
+			};
+			name = Debug;
+		};
+		4E77772D2D12875600781BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.OdolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Odola.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Odola";
+			};
+			name = Release;
+		};
+		4E77772F2D12875600781BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.OdolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Odola;
+			};
+			name = Debug;
+		};
+		4E7777302D12875600781BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.OdolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Odola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7776FF2D12874C00781BFB /* Build configuration list for PBXProject "Odola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7777262D12875600781BFB /* Debug */,
+				4E7777272D12875600781BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7777282D12875600781BFB /* Build configuration list for PBXNativeTarget "Odola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7777292D12875600781BFB /* Debug */,
+				4E77772A2D12875600781BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E77772B2D12875600781BFB /* Build configuration list for PBXNativeTarget "OdolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E77772C2D12875600781BFB /* Debug */,
+				4E77772D2D12875600781BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E77772E2D12875600781BFB /* Build configuration list for PBXNativeTarget "OdolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E77772F2D12875600781BFB /* Debug */,
+				4E7777302D12875600781BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E7776FC2D12874C00781BFB /* Project object */;
+}
