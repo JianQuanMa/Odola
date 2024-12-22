@@ -14,6 +14,8 @@
 		4E7777192D12875600781BFB /* OdolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777182D12875600781BFB /* OdolaTests.swift */; };
 		4E7777232D12875600781BFB /* OdolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777222D12875600781BFB /* OdolaUITests.swift */; };
 		4E7777252D12875600781BFB /* OdolaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */; };
+		4E7777322D12882700781BFB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777312D12882700781BFB /* ChatView.swift */; };
+		4E7777342D17D02500781BFB /* Transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E7777332D17D02500781BFB /* Transactions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4E77771E2D12875600781BFB /* OdolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OdolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7777222D12875600781BFB /* OdolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaUITests.swift; sourceTree = "<group>"; };
 		4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E7777312D12882700781BFB /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4E7777332D17D02500781BFB /* Transactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Transactions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				4E7777092D12874C00781BFB /* ContentView.swift */,
 				4E77770B2D12875600781BFB /* Assets.xcassets */,
 				4E77770D2D12875600781BFB /* Preview Content */,
+				4E7777312D12882700781BFB /* ChatView.swift */,
+				4E7777332D17D02500781BFB /* Transactions.json */,
 			);
 			path = Odola;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				4E77770F2D12875600781BFB /* Preview Assets.xcassets in Resources */,
 				4E77770C2D12875600781BFB /* Assets.xcassets in Resources */,
+				4E7777342D17D02500781BFB /* Transactions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E77770A2D12874C00781BFB /* ContentView.swift in Sources */,
+				4E7777322D12882700781BFB /* ChatView.swift in Sources */,
 				4E7777082D12874C00781BFB /* OdolaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

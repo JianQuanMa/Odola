@@ -1,0 +1,13 @@
+
+[
+  {
+    "id": "1008",
+    "status": "Your transaction 1008 from New York to Brazil is pending",
+    "bestRates": ["Monday: 20", "Tuesday: 14"]
+  },
+  {
+    "id": "2002",
+    "status": "Completed",
+    "bestRates": ["Tuesday: 14"]
+  }
+]
