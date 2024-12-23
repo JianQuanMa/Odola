@@ -16,6 +16,9 @@
 		4E7777252D12875600781BFB /* OdolaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */; };
 		4E7777322D12882700781BFB /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777312D12882700781BFB /* ChatView.swift */; };
 		4E7777342D17D02500781BFB /* Transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E7777332D17D02500781BFB /* Transactions.json */; };
+		4E7777382D1916D200781BFB /* ChatViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777372D1916D200781BFB /* ChatViewModelTests.swift */; };
+		4E77773A2D19211D00781BFB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7777392D19211D00781BFB /* Model.swift */; };
+		4E77773C2D19213D00781BFB /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77773B2D19213D00781BFB /* ChatViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		4E7777242D12875600781BFB /* OdolaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdolaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4E7777312D12882700781BFB /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		4E7777332D17D02500781BFB /* Transactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Transactions.json; sourceTree = "<group>"; };
+		4E7777372D1916D200781BFB /* ChatViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelTests.swift; sourceTree = "<group>"; };
+		4E7777392D19211D00781BFB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4E77773B2D19213D00781BFB /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 				4E77770D2D12875600781BFB /* Preview Content */,
 				4E7777312D12882700781BFB /* ChatView.swift */,
 				4E7777332D17D02500781BFB /* Transactions.json */,
+				4E7777392D19211D00781BFB /* Model.swift */,
+				4E77773B2D19213D00781BFB /* ChatViewModel.swift */,
 			);
 			path = Odola;
 			sourceTree = "<group>";
@@ -120,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				4E7777182D12875600781BFB /* OdolaTests.swift */,
+				4E7777372D1916D200781BFB /* ChatViewModelTests.swift */,
 			);
 			path = OdolaTests;
 			sourceTree = "<group>";
@@ -267,6 +276,8 @@
 				4E77770A2D12874C00781BFB /* ContentView.swift in Sources */,
 				4E7777322D12882700781BFB /* ChatView.swift in Sources */,
 				4E7777082D12874C00781BFB /* OdolaApp.swift in Sources */,
+				4E77773C2D19213D00781BFB /* ChatViewModel.swift in Sources */,
+				4E77773A2D19211D00781BFB /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7777382D1916D200781BFB /* ChatViewModelTests.swift in Sources */,
 				4E7777192D12875600781BFB /* OdolaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
